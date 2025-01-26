@@ -1,0 +1,82 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: #222;
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+header .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+header .nav-links a:hover {
+    color: #f39c12;
+}
+
+.hero-section {
+    background: #f39c12;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.hero-section .cta-button {
+    background: #222;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    margin-top: 1rem;
+    display: inline-block;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.hero-section .cta-button:hover {
+    background: #fff;
+    color: #f39c12;
+}
+
+.about-section, .services-section, .portfolio-section, .contact-section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.service {
+    margin: 1rem 0;
+}
+
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
